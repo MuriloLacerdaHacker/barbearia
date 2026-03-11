@@ -43,12 +43,21 @@ nav a:hover{
 color:#ffd000;
 }
 
-/* HERO */
+/* HERO COM LOGO DE FUNDO */
 
 .hero{
+
 text-align:center;
 padding:140px 20px;
-background:linear-gradient(135deg,#000,#1a1a1a);
+
+background:
+linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.9)),
+url("img/logo.png");
+
+background-size:500px;
+background-repeat:no-repeat;
+background-position:center;
+
 }
 
 .hero h2{
